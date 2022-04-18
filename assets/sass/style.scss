@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+$bg-color: gray;
+$font-color: #fff;
+
+html {
+  overflow-y: auto;
+  body {
+    background: $bg-color;
+    color: $font-color;
+  }
+}
+
+.box {
+  display:flex;
+  box-shadow:0 0 10px rgba(0,0,0,.5);
+}
