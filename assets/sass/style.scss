@@ -1,8 +1,7 @@
-@charset 'utf-8';
-
 $bg-color: gray;
 $font-color: #fff;
 
+//임시 확인용 추후 삭제 예정
 html {
   overflow-y: auto;
   body {
@@ -10,8 +9,28 @@ html {
     color: $font-color;
   }
 }
-
-.box {
-  display:flex;
-  box-shadow:0 0 10px rgba(0,0,0,.5);
+//header 영역 스타일
+.header {
+  width: 100%;
+  height: 54px;
+  &-wrap {
+    position: relative;
+    width: auto;
+    height: 100%;
+    padding: 0 5%;
+    background-color: #fff;
+    z-index: 100;
+    .logo {
+      position: relative;
+      display: inline-block;
+      padding: 12px 6px 12px 10px;
+      margin-top: 1px;
+      width: 137px;
+      height: auto;
+      &-icon {
+        width: 108px;
+        height: auto;
+      }
+    }
+  }
 }
