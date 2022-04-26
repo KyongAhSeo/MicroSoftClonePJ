@@ -1,0 +1,40 @@
+.quick-link {
+  &__wrapper{
+    text-align: center;
+    border: 0;
+    padding: 48px 41px 0;
+  }
+  &__box{
+    position: relative;
+    overflow: hidden;
+  }
+  &__list{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0;
+    left: 0;
+    width: auto;
+    flex-wrap: nowrap;
+    padding: 1px;
+    position: relative;
+  }
+  &__item{
+    font-size: 15px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+  }
+
+  &__anchor{
+    width: 184px;
+    display: inline-block;
+    padding: 12px 6px;
+    min-height: 44px;
+    position: relative;
+    cursor: pointer;
+  }
+
+}
